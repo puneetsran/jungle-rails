@@ -43,9 +43,11 @@
           </ul>
         </li>
         <% if current_user %>
-          Signed in as <%= current_user.name %> | <%= link_to "Logout", '/logout' %>
+          <li> <span class="navbar-text"> Signed in as <%= current_user.name %> </span> </li>
+          <li> <%= link_to "Logout", '/logout' %> </li>
         <% else %>
-          <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
+          <li> <%= link_to 'Login', '/login' %> </li>
+          <li> <%= link_to 'Signup', '/signup' %> </li>
         <% end %>
         <li>
           <%= link_to cart_path do %>
