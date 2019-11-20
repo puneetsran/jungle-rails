@@ -4,9 +4,9 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Screenshots
 
-!['Home Page']()
-!['Empty Cart']()
-!['Order Page']()
+!['Home Page'](https://github.com/user956/jungle-rails/blob/master/docs/home_page.png?raw=true)
+!['Empty Cart'](https://github.com/user956/jungle-rails/blob/master/docs/empty_cart.png?raw=true)
+!['Order Page'](https://github.com/user956/jungle-rails/blob/master/docs/order_page.png?raw=true)
 
 ## Setup
 
